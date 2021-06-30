@@ -1,0 +1,1 @@
+web: gunicorn supreme-like-backend.wsgi
