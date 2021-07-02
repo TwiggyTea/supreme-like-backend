@@ -40,9 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'supreme_like',
-    'insights',
+    'globalinsights',
     'users',
+    'insights',
 
     'djoser',
     'corsheaders',
