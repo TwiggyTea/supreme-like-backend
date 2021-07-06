@@ -1,1 +1,1 @@
-web: gunicorn supreme-like-django.wsgi
+web: gunicorn supreme-like-backend.wsgi
