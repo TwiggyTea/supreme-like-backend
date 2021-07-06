@@ -20,7 +20,6 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api-auth', include('rest_framework.urls', namespace='rest_framework')),
-    path('', include('users.urls')),
-] 
-# + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    path('insights/', include('insights.urls')),
+    path('global/', include('globalinsights.urls'))
+]
